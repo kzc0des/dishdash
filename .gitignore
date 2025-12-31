@@ -1,0 +1,46 @@
+# Node.js
+/node_modules
+/npm-debug.log
+/yarn-debug.log
+/yarn-error.log
+
+# Angular
+/dist
+/coverage
+/.angular
+/tmp
+/src/environments/environment*.ts.bak
+/src/app/*.js
+/src/app/*.js.map
+/src/app/*.d.ts
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+
+# OS and Editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!/.vscode/extensions.json
+!/.vscode/settings.json
+!/.vscode/launch.json
+!/.vscode/tasks.json
+
+# Environment variables
+.env
+.env.*
+
+# Local IDE folders
+.idea/
+.vs/
+*.suo
+*.user
+*.userosf
+*.sln.docstates
+*.bak
+*.vssscc
+*.vspscc
+*.gh-pages
+.gitattributes
