@@ -44,3 +44,6 @@ Thumbs.db
 *.vspscc
 *.gh-pages
 .gitattributes
+
+GEMINI.md
+/.instructions
