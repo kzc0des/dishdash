@@ -1,0 +1,12 @@
+D:\knzvi\FullStack\SE2\DishDash\server\src\DishDash.Domain\bin\Debug\net8.0\DishDash.Domain.deps.json
+D:\knzvi\FullStack\SE2\DishDash\server\src\DishDash.Domain\bin\Debug\net8.0\DishDash.Domain.dll
+D:\knzvi\FullStack\SE2\DishDash\server\src\DishDash.Domain\bin\Debug\net8.0\DishDash.Domain.pdb
+D:\knzvi\FullStack\SE2\DishDash\server\src\DishDash.Domain\obj\Debug\net8.0\DishDash.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\knzvi\FullStack\SE2\DishDash\server\src\DishDash.Domain\obj\Debug\net8.0\DishDash.Domain.AssemblyInfoInputs.cache
+D:\knzvi\FullStack\SE2\DishDash\server\src\DishDash.Domain\obj\Debug\net8.0\DishDash.Domain.AssemblyInfo.cs
+D:\knzvi\FullStack\SE2\DishDash\server\src\DishDash.Domain\obj\Debug\net8.0\DishDash.Domain.csproj.CoreCompileInputs.cache
+D:\knzvi\FullStack\SE2\DishDash\server\src\DishDash.Domain\obj\Debug\net8.0\DishDash.Domain.sourcelink.json
+D:\knzvi\FullStack\SE2\DishDash\server\src\DishDash.Domain\obj\Debug\net8.0\DishDash.Domain.dll
+D:\knzvi\FullStack\SE2\DishDash\server\src\DishDash.Domain\obj\Debug\net8.0\refint\DishDash.Domain.dll
+D:\knzvi\FullStack\SE2\DishDash\server\src\DishDash.Domain\obj\Debug\net8.0\DishDash.Domain.pdb
+D:\knzvi\FullStack\SE2\DishDash\server\src\DishDash.Domain\obj\Debug\net8.0\ref\DishDash.Domain.dll
