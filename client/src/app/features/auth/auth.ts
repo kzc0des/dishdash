@@ -7,6 +7,9 @@ import { RouterOutlet } from "@angular/router";
   imports: [RouterOutlet],
   templateUrl: './auth.html',
   styleUrl: './auth.css',
+  host: {
+    'class': 'animate-onload'
+  }
 })
 export class Auth {
 

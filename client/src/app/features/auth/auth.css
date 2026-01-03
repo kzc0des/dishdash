@@ -1,0 +1,21 @@
+@keyframes gentle-bob {
+  0% {
+    transform: translateY(0) rotateZ(0deg);
+  }
+  25% {
+    transform: translateY(-5px) rotateZ(-1deg);
+  }
+  50% {
+    transform: translateY(0) rotateZ(0deg);
+  }
+  75% {
+    transform: translateY(-5px) rotateZ(1deg);
+  }
+  100% {
+    transform: translateY(0) rotateZ(0deg);
+  }
+}
+
+.bobbing-logo {
+  animation: gentle-bob 3s ease-in-out infinite;
+}
