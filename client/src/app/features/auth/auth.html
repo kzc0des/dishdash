@@ -1,12 +1,82 @@
-<div>
-    <div>
-        <!-- logo -->
-        <div class="flex-shrink-0 flex items-center gap-2">
-            <img class="h-8 w-auto" src="dishdashlogo.svg" alt="DishDash Logo" draggable="false">
-            <span class="font-bold text-xl text-orange-500">Dish<span class="text-gray-800">Dash</span></span>
+<div class="min-h-screen bg-white flex flex-col md:flex-row font-sans text-slate-900">
+
+    <div class="hidden md:flex md:w-1/2 bg-slate-900 relative overflow-hidden flex-col justify-center p-12 lg:p-20 ">
+        <div class="absolute top-0 left-0 w-full h-full opacity-20 pointer-events-none">
+            <div class="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-orange-500 rounded-full blur-[120px]">
+            </div>
+            <div class="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-indigo-500 rounded-full blur-[120px]">
+            </div>
         </div>
+
+        <!-- logo -->
+        <div class="relative z-10">
+            <div class="flex-shrink-0 flex items-center gap-3 mb-12">
+                <img class="h-50 w-auto" src="dishdashlogo.svg" alt="DishDash Logo" draggable="false">
+                <span class="font-black tracking-tight text-6xl text-orange-500">Dish<span
+                        class="text-white text-6xl">Dash</span></span>
+            </div>
+        </div>
+
+        <h2 class="text-4xl lg:text-5xl font-extrabold text-white leading-tight mb-8">
+            The future of cooking is <span
+                class="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-amber-200">automated.</span>
+        </h2>
+
+        <div class="space-y-8">
+            <div class="flex gap-4">
+                <div class="flex items-center justify-center mt-1 bg-white/10 p-2 rounded-lg text-orange-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="#F7931E"
+                            d="m9.96 9.137l.886-3.099c.332-1.16 1.976-1.16 2.308 0l.885 3.099a1.2 1.2 0 0 0 .824.824l3.099.885c1.16.332 1.16 1.976 0 2.308l-3.099.885a1.2 1.2 0 0 0-.824.824l-.885 3.099c-.332 1.16-1.976 1.16-2.308 0l-.885-3.099a1.2 1.2 0 0 0-.824-.824l-3.099-.885c-1.16-.332-1.16-1.976 0-2.308l3.099-.885a1.2 1.2 0 0 0 .824-.824m8.143 7.37c.289-.843 1.504-.844 1.792 0l.026.087l.296 1.188l1.188.297c.96.24.96 1.602 0 1.842l-1.188.297l-.296 1.188c-.24.959-1.603.959-1.843 0l-.297-1.188l-1.188-.297c-.96-.24-.96-1.603 0-1.842l1.188-.297l.297-1.188zm.896 2.29a1 1 0 0 1-.203.203a1 1 0 0 1 .203.203a1 1 0 0 1 .203-.203a1 1 0 0 1-.203-.204M4.104 2.506c.298-.871 1.585-.842 1.818.087l.296 1.188l1.188.297c.96.24.96 1.602 0 1.842l-1.188.297l-.296 1.188c-.24.959-1.603.959-1.843 0l-.297-1.188l-1.188-.297c-.96-.24-.96-1.603 0-1.842l1.188-.297l.297-1.188zM5 4.797a1 1 0 0 1-.203.202A1 1 0 0 1 5 5.203a1 1 0 0 1 .203-.204A1 1 0 0 1 5 4.796" />
+                    </svg>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold text-lg">AI-Powered Meal Generation</h4>
+                    <p class="text-slate-400 text-sm">Automate your grocery list and meal prep based on what's in your
+                        fridge.</p>
+                </div>
+            </div>
+
+            <div class="flex gap-4">
+                <div class="flex items-center justify-center mt-1 bg-white/10 p-2 rounded-lg text-emerald-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="#a0e332"
+                            d="M9.616 13.442h1V9.616h-1zM5.827 16.77v-4.442q-1.035-.517-1.68-1.48Q3.5 9.885 3.5 8.725q0-1.548 1.086-2.636Q5.67 5 7.219 5q.3 0 .603.05t.603.125l.173.039l.096-.155q.548-.909 1.404-1.484T12 3t1.902.575t1.423 1.484l.096.154l.154-.038q.28-.075.571-.125t.596-.05q1.568 0 2.663 1.089T20.5 8.744q0 1.16-.637 2.113q-.636.953-1.69 1.47v4.442zm7.577-3.327h1V9.616h-1zM5.827 21v-3.23h12.346V21z" />
+                    </svg>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold text-lg">Verified Chef Community</h4>
+                    <p class="text-slate-400 text-sm">Access thousands of recipes tested and refined by real human
+                        cooks.</p>
+                </div>
+            </div>
+
+            <div class="flex gap-4">
+                <div class="flex items-center justify-center mt-1 bg-white/10 p-2 rounded-lg text-indigo-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="#327be3"
+                            d="M6 22q-.825 0-1.412-.587T4 20V4q0-.825.588-1.412T6 2h12q.825 0 1.413.588T20 4v16q0 .825-.587 1.413T18 22zm0-2h12V4h-2v7l-2.5-1.5L11 11V4H6zm0 0V4zm5-9l2.5-1.5L16 11l-2.5-1.5z" />
+                    </svg>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold text-lg">Private Vaults</h4>
+                    <p class="text-slate-400 text-sm">Keep your family secrets safe or share them with the global feed.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="absolute bottom-12 left-12 lg:left-20 flex items-center gap-4 text-slate-500 text-sm">
+            <span>&copy; 2025 DishDash by Kenzo Vidal. All Rights Reserved.</span>
+            <span class="w-1 h-1 bg-slate-700 rounded-full"></span>
+            <button class="hover:text-slate-300">Privacy Policy</button>
+        </div>
+
+
+
     </div>
-    <div>
+    <div class="flex-1">
         <!-- sign in or log in -->
+        <router-outlet></router-outlet>
     </div>
 </div>

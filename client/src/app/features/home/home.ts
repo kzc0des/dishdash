@@ -8,7 +8,6 @@ import { AnimateOnScrollDirective } from '../../core/directives/animate-on-scrol
 
 @Component({
   selector: 'app-home',
-  standalone: true,
   imports: [Hero, HowItWorks, CommunityShowcase, FeaturesBenefits, CallToAction, AnimateOnScrollDirective],
   templateUrl: './home.html',
   styleUrl: './home.css',
