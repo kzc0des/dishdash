@@ -6,5 +6,8 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   styleUrls: ['./features-benefits.css'],
   changeDetection: ChangeDetectionStrategy.OnPush,
   standalone: true,
+  host: {
+    id: 'features'
+  }
 })
 export class FeaturesBenefits {}

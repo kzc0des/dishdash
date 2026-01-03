@@ -5,10 +5,11 @@ import { CommunityShowcase } from './components/community-showcase/community-sho
 import { CallToAction } from './components/call-to-action/call-to-action';
 import { FeaturesBenefits } from './components/features-benefits/features-benefits';
 import { AnimateOnScrollDirective } from '../../core/directives/animate-on-scroll.directive';
+import { RoadmapComponent } from './components/roadmap/roadmap';
 
 @Component({
   selector: 'app-home',
-  imports: [Hero, HowItWorks, CommunityShowcase, FeaturesBenefits, CallToAction, AnimateOnScrollDirective],
+  imports: [Hero, HowItWorks, CommunityShowcase, FeaturesBenefits, CallToAction, AnimateOnScrollDirective, RoadmapComponent],
   templateUrl: './home.html',
   styleUrl: './home.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
