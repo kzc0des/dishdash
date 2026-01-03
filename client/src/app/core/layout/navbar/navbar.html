@@ -16,8 +16,8 @@
 
       <!-- Desktop CTA Buttons -->
       <div class="hidden md:flex items-center space-x-4">
-        <a routerLink="/login" class="text-gray-600 hover:text-orange-500 transition-colors">Log In</a>
-        <a routerLink="/signup" class="bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-600 transition-colors">Sign Up</a>
+        <a [routerLink]="['/auth/login']" class="text-gray-600 hover:text-orange-500 transition-colors">Log In</a>
+        <a [routerLink]="['/auth/sign-up']" class="bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-600 transition-colors">Sign Up</a>
       </div>
 
       <!-- Mobile Menu Button -->
@@ -46,8 +46,8 @@
     </div>
     <div class="pt-4 pb-3 border-t border-gray-200">
       <div class="px-2 space-y-1">
-        <a routerLink="/login" (click)="toggleMenu()" class="block px-3 py-2 rounded-md text-base font-medium text-gray-500 hover:bg-gray-50">Log In</a>
-        <a routerLink="/signup" (click)="toggleMenu()" class="block w-full text-left px-3 py-2 rounded-md text-base font-medium text-white bg-orange-500 hover:bg-orange-600">Sign Up</a>
+        <a [routerLink]="['/auth/login']" (click)="toggleMenu()" class="block px-3 py-2 rounded-md text-base font-medium text-gray-500 hover:bg-gray-50">Log In</a>
+        <a [routerLink]="['/auth/sign-up']" (click)="toggleMenu()" class="block w-full text-left px-3 py-2 rounded-md text-base font-medium text-white bg-orange-500 hover:bg-orange-600">Sign Up</a>
       </div>
     </div>
   </div>
